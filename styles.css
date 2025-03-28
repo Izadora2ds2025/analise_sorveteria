@@ -1,0 +1,36 @@
+/*definindo cores padrão*/
+
+:root{
+    --cor-primaria: #FF9AA2; /* rosa suave */
+    --cor-secundaria: #B5EAD7; /* verde pimenta */
+    --cor-destaque: #FFDAC1; /*bege claro */
+    --cor-texto: #2F4858  /* azul escuro */
+    --sombra: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+};
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'quicksand', 'sans-serif';
+    color: var( --cor-texto );
+    background: #f8f8f8;
+
+}
+
+.cabeçalho {
+    background: linear-gradient(135deg , var( --cor-primaria),
+    var(-- --cor-secundaria),
+    );
+    padding: 2rem 1rem;
+    color: white;
+    text-align: center;
+    box-shadow: var(--sombra);
+    position: relative;
+    overflow: hidden;
+}
